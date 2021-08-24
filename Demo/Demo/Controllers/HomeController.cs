@@ -17,7 +17,7 @@ namespace Demo.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = V;
+            ViewBag.Message = " Truong dai hoc mo dia chat ";
 
             return View();
         }
