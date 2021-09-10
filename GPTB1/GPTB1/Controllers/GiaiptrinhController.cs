@@ -15,6 +15,10 @@ namespace GPTB1.Controllers
         {
             return View();
         }
+        public ActionResult GPTB1()
+        {
+            return View();
+        }
         [HttpPost]
         public ActionResult GPTB1( double soa, double sob)
         {
